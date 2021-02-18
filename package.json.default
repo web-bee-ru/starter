@@ -1,12 +1,10 @@
 {
-  "name": "starter",
+  "name": "Starter project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "sh ./initialize.sh",
-    "cleanup": "sh ./cleanup.sh"
   },
-  "author": "",
+  "author": "web-bee.ru",
   "license": "ISC"
 }
