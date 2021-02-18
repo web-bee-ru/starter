@@ -10,5 +10,5 @@ cd <TARGET_DIR>
 git clone https://github.com/web-bee-ru/starter.git && cd starter && npm run start && npm run cleanup && cd  ../ && echo Your starter is ready. Check folder ./starter
 
 # If you are ready to merge ./starter with ./ exec next line
-mv ./starter/* ./ && rm ./starter
+mv ./starter/* ./ && rm -rf ./starter
 ```
