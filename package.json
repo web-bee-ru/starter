@@ -8,5 +8,8 @@
     "cleanup": "sh ./cleanup.sh"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.2.1"
+  }
 }

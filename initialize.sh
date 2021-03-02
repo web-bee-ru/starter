@@ -16,4 +16,6 @@ echo Starter in progress... &&
     # cp .env.example .env &&
     rm -rf .git &&
     cd ../ &&
+  echo Installing generic dependencies... &&
+  npm i &&
   echo Starter complete!
