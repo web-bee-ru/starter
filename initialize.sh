@@ -18,4 +18,8 @@ echo Starter in progress... &&
     cd ../ &&
   echo Installing generic dependencies... &&
   npm i &&
+  echo Installing frontend dependencies... &&
+  npm i --prefix=frontend &&
+  echo Installing backend dependencies... &&
+  npm i --prefix=backend &&
   echo Starter complete!
