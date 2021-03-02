@@ -4,4 +4,6 @@ echo Cleanup in progress... &&
   mv package.json.default package.json &&
   mv README.md.default README.md &&
   echo Starter cleanup complete! Your project is ready to commit. &&
-  echo Dont forget to exec \"mv .env.example .env\" in \"./frontend\" and \"./backend\" folders
+  cp ./backend/.env.example ./backend/.env &&
+  cp ./frontend/.env.example ./frontend/.env &&
+  echo "Don't forget to select prettier package in IDE settings (ctrl-alt-s -> prettier -> prettier package)"
