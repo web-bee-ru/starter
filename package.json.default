@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev-front": "npm run dev --prefix=./frontend",
+    "dev-back": "npm run dev --prefix=./backend",
+    "dev-fb": "run-p dev-back dev-front"
   },
   "author": "web-bee.ru",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1"
+  }
 }
