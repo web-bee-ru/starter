@@ -6,7 +6,13 @@
   "scripts": {
     "dev-front": "npm run dev --prefix=./frontend",
     "dev-back": "npm run dev --prefix=./backend",
-    "dev-fb": "run-p dev-back dev-front"
+    "dev-fb": "run-p dev-back dev-front",
+    "build-front": "npm run build --prefix=./frontend",
+    "build-back": "npm run build --prefix=./backend",
+    "build-fb": "run-s build-back build-front",
+    "start-front": "npm run start --prefix=./frontend",
+    "start-back": "npm run start --prefix=./backend",
+    "start-fb": "run-s start-back start-front"
   },
   "author": "web-bee.ru",
   "license": "ISC",
